@@ -51,7 +51,7 @@ const defaultOptions = {
 
                     </div>
                     <div className="mb-5 pb-5 mt-4 button-con">
-                        <CustomButton arr={true} text={props.buttonText} shadow="rgb(20, 93, 203)" className="ms-0 py-1 px-5 fs-7" />
+                        {/* <CustomButton  arr={true} text={props.buttonText} shadow="rgb(20, 93, 203)" className="ms-0 py-1 px-5 fs-7" /> */}
                     </div>
 
 

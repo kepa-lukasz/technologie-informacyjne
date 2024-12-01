@@ -1,5 +1,4 @@
 //react things
-
 import { useCookies } from 'react-cookie';
 import './App.css';
 import './shadows.css'
@@ -36,7 +35,7 @@ const Contact = lazy(() => import('./pages/contact/newContact'))
 
 
 function App() {
-  
+
 
   const [cookies, setCookie] = useCookies(['language']);
   const [preferredLanguage, setPreferredLanguage] = useState('');
@@ -152,15 +151,18 @@ function App() {
       <Container fluid className='p-0 background-image' style={{ position: "relative", overflow: "hidden" }}>
         <div style={{ zIndex: '1' }}>
           <Navbar lang={preferredLanguage} scrollPos={scrollTop} ref={navElement} />
+          <div style={{marginTop: "60px"}}>
+
+          <JqueryScripts />
+          </div>
           <img className='blur-icon' src={icon} alt="blur" />
           {/* <img className='blur-bgc' src={bgcimg} alt="blur" /> */}
-          
           <div>
 
           </div>
           <RouterProvider router={router} />
         </div>
-        <JqueryScripts/>
+        
         <Footer ref={footerElement} lang={preferredLanguage} lang_change={handle_lang_change} />
       </Container>
     </Suspense>

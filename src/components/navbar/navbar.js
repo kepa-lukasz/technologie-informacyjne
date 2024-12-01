@@ -75,11 +75,11 @@ function Navbar(props) {
 
             <div className="nav-menu d-none d-lg-flex align-items-center "
             >
-                <CustomButton id="resize-button-more" arr={false} text={"powiększ tekst"} className="my-auto px-3 py-0 bg-50px" />
-                <CustomButton id="resize-button-less" arr={false} text={"zmniejsz tekst"} className=" ms-3 my-auto px-3 py-0 bg-50px" />
-                <CustomButton id="light-theme" arr={false} text={"Zwiększ konktrast"} className=" ms-3 my-auto px-3 py-0 bg-50px" />
+                <CustomButton id="resize-button-more" arr={false} text={"powiększ tekst"} className="my-auto px-3 py-0 py-1" />
+                <CustomButton id="resize-button-less" arr={false} text={"zmniejsz tekst"} className=" ms-3 my-auto px-3 py-1 " />
+                <CustomButton id="light-theme" arr={false} text={"Zwiększ konktrast"} className=" ms-3 my-auto px-3 py-0 py-1" />
 
-                <CustomButton id="dark-theme" arr={false} text={"Zmniejsz konktrast"} className=" ms-3 my-auto px-3 py-0 bg-50px" />
+                <CustomButton id="dark-theme" arr={false} text={"Zmniejsz konktrast"} className=" ms-3 my-auto px-3 py-0 py-1" />
 
                 <div tabIndex={2} className="big_dropdown dropdown"
                     style={{ position: 'relative' }}

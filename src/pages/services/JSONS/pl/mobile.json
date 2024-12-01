@@ -70,7 +70,7 @@
     ],
     "bottom" : {
         "star" : true,
-        "link" : "https://www.youtube.com/watch?v=76RiFbiDokw",
+        "link" : "/contact",
         "text" : "Twój pomysł potrzebuje indywidualnego podejścia? Zapraszamy do kontaktu biuro@techsquare.pl",
         "buttonText" : "Zapraszamy do kontaktu"
     }

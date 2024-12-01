@@ -74,7 +74,7 @@
     ],
     "bottom" : {
         "star" : true,
-        "link" : "/contact?web",
+        "link" : "/contact",
         "text" : "Twój pomysł potrzebuje indywidualnego podejścia? Zapraszamy do kontaktu biuro@techsquare.pl",
         "buttonText" : "Zapraszamy do kontaktu"
     }
