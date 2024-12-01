@@ -3,7 +3,7 @@ import "./custom-button.css"
 
 import { useRef } from "react";
 
-const CustomButton = ({ shadow, style, arr, text, className, ...rest }) => {
+const CustomButton = ({disable, shadow, style, arr, text, className, ...rest }) => {
     
 
     let shadowColor = shadow
@@ -42,6 +42,7 @@ const CustomButton = ({ shadow, style, arr, text, className, ...rest }) => {
 
     return (
         <Button
+        disabled={disable}
         {...rest}
             style={customStyle}
             //   onMouseEnter={playSound} onMouseLeave={stopSound}

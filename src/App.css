@@ -35,3 +35,6 @@ body {
   color: #FFFF00 !important;
   background-color: black !important;
 }
+button:disabled{
+  border: none !important;
+}

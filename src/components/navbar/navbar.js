@@ -8,30 +8,7 @@ import DropdownProjects from "./desktop/project-dropdown";
 import $ from "jquery"
 import CustomButton from "../custom-button/custom-button";
 function Navbar(props) {
-    useEffect(() => {
-        //powiększenie / zmniejszenie tekstu
-        $(document).ready(function () {
-            $('#resize-button-more').click(function () {
-
-                $('body').css('font-size', '24px');
-            });
-            $('#resize-button-less').click(function () {
-
-                $('body').css('font-size', '16px');
-            });
-        });
-        //jasny - ciemny motyw
-        $(document).ready(function () {
-
-            $('#light-theme').click(function () {
-                $('p, h1, h2, h3, h4, h5, h6, a, span, label').addClass('tekst-yellow');
-            });
-            $('#dark-theme').click(function () {
-                $('p, h1, h2, h3, h4, h5, h6, a, span, label').removeClass('tekst-yellow');
-            });
-        });
-
-    }, [])
+    
     const [used_lang, set_lang] = useState(require(`./nav-lang/en.json`));
 
     useEffect(() => {
@@ -75,12 +52,7 @@ function Navbar(props) {
 
             <div className="nav-menu d-none d-lg-flex align-items-center "
             >
-                <CustomButton id="resize-button-more" arr={false} text={"powiększ tekst"} className="my-auto px-3 py-0 py-1" />
-                <CustomButton id="resize-button-less" arr={false} text={"zmniejsz tekst"} className=" ms-3 my-auto px-3 py-1 " />
-                <CustomButton id="light-theme" arr={false} text={"Zwiększ konktrast"} className=" ms-3 my-auto px-3 py-0 py-1" />
-
-                <CustomButton id="dark-theme" arr={false} text={"Zmniejsz konktrast"} className=" ms-3 my-auto px-3 py-0 py-1" />
-
+               
                 <div tabIndex={2} className="big_dropdown dropdown"
                     style={{ position: 'relative' }}
                     onFocus={handleMouseEnter}
