@@ -1,0 +1,233 @@
+/* Shadows */
+
+:root {
+    --shadow-size: 380px
+}
+@media only screen and (min-width: 3000px){
+    .web-shadow{
+        animation: dancing-shadow 3.6s infinite;
+        animation-timing-function: linear;
+    }
+    .web-add-shadow1, .web-add-shadow2{
+        animation-delay: 1.8s;
+    }
+}
+
+@media only screen and (min-width: 2500px) {
+    
+    .web-add-shadow1, .web-add-shadow2{
+        visibility: visible;
+        width: 1003px;
+        height: 1003px;
+    }
+    .web-add-shadow1{
+        /* left-wall */
+        z-index: 2;
+        background-color: rgba(71, 20, 78, 0.3);
+        box-shadow: 0 0 var(--shadow-size) var(--shadow-size) rgba(63, 15, 70, 0.6);
+        top: 8vh;
+        left: 12vw;
+    }
+    .web-add-shadow2{
+        /* right-wall */
+        z-index: 1;
+        background-color: rgba(53, 18, 92, 0.2);
+        box-shadow: 0 0 var(--shadow-size) var(--shadow-size) rgba(51, 17, 90, 0.6);
+        right: 10vw;
+        top: 10vh !important;
+    }
+    .web-shadow3 {
+        /* right-middle */
+        z-index: 2;
+        background-color: rgba(71, 20, 78, 0.3);
+        box-shadow: 0 0 var(--shadow-size) var(--shadow-size) rgba(100, 25, 110, 0.6);
+        bottom: 0vh;
+        right: 32vw;
+    }
+    .web-shadow2 {
+        /* left-middle */
+        z-index: 1;
+        background-color: rgba(53, 18, 92, 0.2);
+        box-shadow: 0 0 var(--shadow-size) var(--shadow-size) rgba(78, 26, 139, 0.6);
+        left: 35vw;
+        bottom: 15vh !important;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 2500px) {
+    .web-add-shadow1, .web-add-shadow2{
+        visibility: visible;
+    }
+    :root {
+        --shadow-size: 300px
+    }
+
+    .web-shadow3 {
+        z-index: 2;
+        background-color: rgba(71, 20, 78, 0.3);
+        box-shadow: 0 0 var(--shadow-size) var(--shadow-size) rgba(100, 25, 110, 0.6);
+        bottom: 15vh;
+        right: 12%;
+    }
+
+    .web-shadow2 {
+        z-index: 1;
+        background-color: rgba(53, 18, 92, 0.2);
+        box-shadow: 0 0 var(--shadow-size) var(--shadow-size) rgba(78, 26, 139, 0.6);
+        bottom: 15vh;
+        left: 10%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    :root {
+        --shadow-size: 180px
+    }
+}
+
+.web-shadow {
+    z-index: 0;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+}
+
+@keyframes dancing-shadow{
+    0%{
+        opacity: 1;
+    }
+    
+    50%{
+        opacity: 0.7
+      }
+    
+   
+    100%{
+        opacity: 1;
+    }
+  }
+/* squares */
+.square {
+    width: 300px;
+    aspect-ratio: 1/1;
+    position: absolute;
+    background-color: #2B2F3C;
+    opacity: 0.9;
+}
+
+.empty {
+    background-color: #2B2934;
+    border: 4px solid #2B2F3C;
+}
+
+/* top-middle */
+.square1 {
+    rotate: 45deg;
+    left: 40%;
+}
+
+/* left-wall */
+.square2 {
+    bottom: 15%;
+    left: -160px;
+    rotate: 30deg;
+}
+
+/* bottom-left */
+.square3 {
+    rotate: 45deg;
+    bottom: -200px;
+    left: 15%
+}
+
+/* bottom-right */
+.square4 {
+    rotate: 40deg;
+    bottom: -50px;
+    right: 15%;
+}
+
+/* top-right */
+.square5 {
+    rotate: 70deg;
+    right: -150px;
+    top: -100px;
+}
+
+/* left-top-empty */
+.square6 {
+    rotate: 45deg;
+    left: -200px;
+    top: 200px;
+}
+
+/* center-empty */
+.square7 {
+    top: 50%;
+    rotate: 50deg;
+    right: 40%;
+}
+
+/* right-wall-center */
+.square8 {
+    top: 32%;
+    rotate: 45deg;
+    right: -100px;
+}
+
+.mt-custom-100px {
+    height: 80px;
+    background-color: #19191C;
+}
+
+.square9,
+.square10,
+.square11,
+.square12,
+.square13 {
+    visibility: hidden;
+}
+
+@media screen and (min-width: 2700px) {
+
+    .square9,
+    .square10,
+    .square11,
+    .square12,
+    .square13 {
+        visibility: visible;
+    }
+}
+
+.square9 {
+    rotate: 35deg;
+    left: 20%;
+    top: 20%;
+}
+
+.square10 {
+    rotate: 55deg;
+    left: 35%;
+    top: 55%;
+}
+
+.square11 {
+    rotate: 35deg;
+    right: 10%;
+    top: 25%;
+}
+
+.square12 {
+    rotate: 55deg;
+    right: 25%;
+    top: 55%;
+}
+
+.square13 {
+    rotate: 55deg;
+    right: 25%;
+    top: 15%;
+}

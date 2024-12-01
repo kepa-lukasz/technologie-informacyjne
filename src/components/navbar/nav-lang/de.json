@@ -1,0 +1,16 @@
+{
+
+    "buttons" : [
+        "Leistungen", "Unsere Projekte", "Projekte", "Kontakt"
+    ],
+    "dropdown" : [
+        "Einzelkunde", "Kleine und mittlere Unternehmen", "Große Unternehmen und Institutionen", "WÄHLEN SIE DIE GRÖSSE IHRES UNTERNEHMENS", "ANGEBOTE LEISTUNGEN"
+    ],
+    "subpages" : [
+        "Mobile Anwendungen", "Grafikdesigns und Logos", "IT-Support", "Websites"
+    ],
+    "bottom":[
+        "Bitte kontaktieren Sie uns, wenn Sie auf der Suche sind", "Langfristige Zusammenarbeit / maßgeschneiderter Service / IT-Beratung",
+        "Anfrage absenden"
+    ]
+}

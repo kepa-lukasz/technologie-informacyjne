@@ -1,0 +1,79 @@
+{
+    "titles": [
+        "Paleta naszych usług",
+        "Duże firmy i Instytucje",
+        "Klienci indywidualni",
+        "Średnie i małe firmy"
+    ],
+    "paleteSubtitle": [
+        "Zaawansowane, skalowalne i bezpieczne strategie cyfrowe, wspierające kompleksowe i dynamiczne środowiska korporacyjne.",
+        "Elastyczne i koszt-efektywne usługi cyfrowe, które wspomagają rozwój i konkurencyjność na rynku dla małych i średnich przedsiębiorstw.",
+        "Dostosowane do Twoich unikalnych potrzeb rozwiązania cyfrowe, które pomogą Ci zaistnieć online i realizować osobiste projekty."
+    ],
+    "data": [
+        {
+            "id": 0,
+            "bg": "linear-gradient(120deg, rgba(191,71,221,1) 0%, rgba(203,195,204,1) 100%)",
+            "title": "Projekty graficzne, logotypy",
+            "svg": "painting-palette",
+            "link": "/uiux",
+            "color": "#BF47DD",
+            "img": "uxui",
+            "desc": [
+                "Analiza i Strategia: Dokładna analiza potrzeb i kreatywne rozwiązania na miarę.",
+                "Projektowanie UX: Intuicyjne i estetyczne warianty UX, skrojone na miarę Twoich potrzeb.",
+                "Kreatywne Koncepty: Unikalne koncepty, które odzwierciedlają wizję Twojej marki.",
+                "Realizacja Wizji: Przekształcamy wybrany koncept w gotowy do wdrożenia projekt.",
+                "Finalne Szlify: Dopracowujemy szczegóły i dostarczamy projekt spełniający Twoje oczekiwania."
+            ]
+        },
+        {
+            "id": 2,
+            "bg": "linear-gradient(120deg, rgba(71,176,221,1) 0%, rgba(103,108,236,1) 100%)",
+            "title": "Aplikacje mobilne",
+            "svg": "phone",
+            "img": "mobile",
+            "link": "/mobile",
+            "color": "#47B0DD",
+            "desc": [
+                "Analiza i Strategia: Dostosowujemy aplikacje do Twoich potrzeb, planując każdy krok rozwoju.",
+                "Koncepcja i Szkielet: Tworzymy szkielet aplikacji, który jest fundamentem dla dalszych prac.",
+                "Design i Architektura: Projektujemy intuicyjne UI i solidną architekturę dla najlepszej wydajności.",
+                "Rozwój i Wdrożenie: Od kodowania po testy - tworzymy aplikacje mobilne gotowe do wdrożenia.",
+                "Gwarancja: Zapewniamy 26 miesięcy gwarancji, dla Twojego spokoju i satysfakcji."
+            ]
+        },
+        {
+            "id": 3,
+            "bg": "linear-gradient(120deg, rgba(255,138,0,1) 0%, rgba(208,201,28,1) 100%)",
+            "title": "Doradztwo IT",
+            "img": "it-support",
+            "svg": "question-mark",
+            "link": "/itsupport",
+            "color": "#FF8A00",
+            "desc": [
+                "Doradztwo Techniczne: Ekspertyzy i rekomendacje dla Twoich komputerów stacjonarnych i laptopów.",
+                "Konfiguracja i Bezpieczeństwo: Wsparcie w konfiguracji i zabezpieczaniu Twoich serwisów internetowych.",
+                "Testy Bezpieczeństwa: Profesjonalne testowanie Twoich serwisów i aplikacji, aby zapewnić ich bezpieczeństwo.",
+                "Oprogramowanie Komercyjne: Porady dotyczące wyboru i wykorzystania oprogramowania komercyjnego, dopasowane do Twoich potrzeb."
+            ]
+        },
+        {
+            "id": 1,
+            "bg": "linear-gradient(120deg, rgba(10,40,107,1) 0%, rgba(18,83,185,1) 100%)",
+            "title": "Strony Internetowe",
+            "svg": "globe",
+            "link": "/web",
+            "color": "#1253B9",
+            "img": "web",
+            "desc": [
+                "Analiza i Strategia: Dostosowujemy aplikacje do Twoich potrzeb, planując każdy krok rozwoju.           ",
+                "Koncepcja i Szkielet: Tworzymy szkielet aplikacji, który jest fundamentem dla dalszych prac.",
+                "Design i Architektura: Projektujemy intuicyjne UI i solidną architekturę dla najlepszej wydajności.",
+                "Rozwój i Wdrożenie: Od kodowania po testy - tworzymy aplikacje mobilne gotowe do wdrożenia.",
+                "Gwarancja: Zapewniamy 26 miesięcy gwarancji, dla Twojego spokoju i satysfakcji."
+                
+            ]
+        }
+    ]
+}

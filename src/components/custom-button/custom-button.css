@@ -1,0 +1,34 @@
+.bg-button {
+    background-color: var(--button-violet);
+    border: 1px solid var(--button-violet);
+    color: white;
+    z-index: 25 !important;
+    position: relative !important;
+    transition: 0.3s linear;
+    background: linear-gradient(77deg, rgba(29, 23, 36, 1) 0%, rgba(29, 23, 36, 1) 50%, var(--button-shadow) 55%, rgba(29, 23, 36, 1) 60%);
+    background-size: 400% 400%;
+    background-position: 100%;
+    display: flex;
+    align-items: center;
+}
+.bg-button:hover {
+    background-color: var(--button-violet);
+    border: 1px solid rgba(97, 97, 97, 0.445);
+    background-position: 0%;
+    box-sizing: border-box;
+}
+
+.bg-button > svg{
+    transition: 0.2s linear;
+} 
+.bg-button:hover > svg {
+    margin: 0px 0px 0px 15px;
+}
+
+
+
+.contact-button{
+    border: 1px solid rgb(214, 214, 214) !important;
+    width: min-content !important;
+    position: relative;
+}

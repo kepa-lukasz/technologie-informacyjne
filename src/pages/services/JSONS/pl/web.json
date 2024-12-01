@@ -1,0 +1,81 @@
+{
+    "Title1": {
+        "text": "Tworzenie stron internetowych",
+        "star": false
+    },
+    "technologies": {
+        "subtitle" : "Twój biznes zasługuje na stronę internetową, która wyróżnia się w sieci. Z nami stworzysz witrynę, która nie tylko pięknie się prezentuje, ale jest również optymalizowana, responsywna i przyjazna dla użytkownika, co przekłada się na lepsze wyniki i większą widoczność.",
+        "text": "Technologie, których używamy",
+        "items": [
+            "React.js",
+            "ASP.NET",
+            "Wordpress",
+            "Node.js",
+            "Bootstrap",
+            "Joomla"
+        ]
+    },
+    "img": "web",
+    "Title2": {
+        "text": "Proces wykonywania usługi",
+        "star": true
+    },
+    "Steps": [
+        {
+            "delay": "0",
+            "number": 1,
+            "title": "1. Konsultacja początkowa",
+            "text": "Analiza i omówienie potrzeb i wymagań klienta, w celu wybrania najlepszych rozwiązań. Zaproponowanie optymalnego terminu  oraz ustalenie budżetu."
+        },
+        {
+            "delay": "150",
+            "number": 2,
+            "title": "2. Przygotowanie oferty",
+            "text": "Przygotowanie spersonalizowanej oferty na podstawie przeprowadzonej wcześniej konsultacji. W ofercie zawarte będą szczegóły usługi, czas wykonania zlecenia oraz koszty."
+        },
+        {
+            "delay": "0",
+            "number": 3,
+            "title": "3. Analiza rynku",
+            "text": "Sprawdzenie rynku i konkurencji związanej z działalnością klienta. Analiza trendów w dziedzinie projektowania stron internetowych i dostosowanie założeń projektowych do oczekiwań klienta."
+        },
+        {
+            
+            "delay": "150",
+            "number": 4,
+            "title": "4. Stworzenie koncepcji",
+            "text": "Stworzenie kilku wariantów koncepcyjnych, szkiców oraz diagramów logicznych na podstawie zebranych wcześniej informacji. Propozycja kolorystyki i stylu, obranie odpowiedniej ścieżki rozwoju strony w oparciu o feedback klienta."
+        },
+        
+        {
+            "delay": "150",
+            "number": 5,
+            "title": "5. Projektowanie i implementacja",
+            "text": "Opracowanie i ujednolicenie stylu serwisu internetowego w oparciu o konsultacje i wcześniejszy feedback klienta. Implementacja logiki strony internetowej. "
+        },
+        {
+            "delay": "0",
+            "number": 6,
+            "title": "6. Prezentacja rozwiązania",
+            "text": "Prezentacja stworzonego rozwiązania i wprowadzenie ewentualnych poprawek zgodnie z uwagami klienta."
+        },
+        {
+            "delay": "150",
+            "number": 7,
+            "title": "7. Finalizacja projektu",
+            "text": "Finalizacja i wdrożenie projektu strony internetowej. Wysłanie wszystkich niezbędnych materiałów, instrukcji i zaleceń związanych z prowadzeniem serwisu."
+        },
+        {
+            "delay": "150",
+            "number": 8,
+            "title": "8. Wsparcie posprzedażowe",
+            "text": "Nasi klienci otrzymują od nas gwarancję posprzedażową na 36 miesięcy. W tym czasie jesteśmy dostępni w razie jakichkolwiek pytań i problemów związanych z działaniem serwisu."
+        }
+    ],
+    "bottom" : {
+        "star" : true,
+        "link" : "/contact?web",
+        "text" : "Twój pomysł potrzebuje indywidualnego podejścia? Zapraszamy do kontaktu biuro@techsquare.pl",
+        "buttonText" : "Zapraszamy do kontaktu"
+    }
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+*{
+  font-family: 'Ubuntu', sans-serif !important;
+  font-weight: 300;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary: rgb(39, 40, 44);
+  --violet: rgba(113, 31, 123, 1);
+  --button-violet: rgb(29, 23, 36);
+  --button-shadow : rgba(122, 57, 197, 1)
+}
+
+.primary {
+  background-color: var(--primary) !important;
+  color: white;
+}
+
+.ubuntu-hard {
+  font-family: 'Ubuntu', sans-serif !important;
+  font-weight: 400;
+  opacity: 0.8;
+}
+.ubuntu-light{
+  opacity: 0.8;
+}

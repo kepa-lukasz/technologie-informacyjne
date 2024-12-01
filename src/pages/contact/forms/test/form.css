@@ -1,0 +1,49 @@
+.selectionButton {
+    border: 1px solid rgba(23, 23, 23, 0.9);
+    background-color: rgba(46, 46, 46, 0.07);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 10px 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    width: 25%;
+    border-radius: 5px;
+}
+.resetPos{
+    width: auto !important;
+    margin: none !important;
+    font-size: 16px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.selectionButton:hover{
+    animation: bounce 0.2s forwards;
+}
+#or {
+    display: inline-block;
+    width: 20%;
+}
+
+@keyframes bounce {
+    0%{
+        transform: scale(1);
+        background-color: rgba(46, 46, 46, 0.07);
+    }
+    100%{
+        transform: scale(1.06);
+        background-color: rgba(23, 23, 23, 0.323);
+    }
+}
+
+@media only screen and (max-width: 768px ) {
+    .selectionButton{
+        width: 75%;
+    }
+    #or {
+        width: 50%;
+    }
+}

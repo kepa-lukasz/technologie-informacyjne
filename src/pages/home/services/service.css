@@ -1,0 +1,259 @@
+.paleta-svg-con {
+    background-color: black;
+    width: min-content;
+    float: right;
+}
+
+
+.circle {
+    position: relative;
+    overflow: hidden;
+}
+
+.circle p {
+    z-index: 10;
+    position: relative;
+}
+
+.zindex-10 {
+    z-index: 10;
+}
+
+.circle::after {
+    position: absolute;
+    bottom: -10%;
+    right: 0%;
+    content: "";
+    width: 1px;
+    height: 1px;
+    border-radius: 100%;
+    z-index: 0;
+
+}
+
+svg {
+    z-index: 20;
+    margin: 5px;
+    margin-bottom: 0px;
+}
+
+.bg-button svg {
+    min-height: 20px;
+    margin: 0px 5px;
+}
+
+.p-rel {
+    position: relative;
+}
+
+.p-rel p {
+    margin-bottom: 70px;
+}
+
+.p-rel button {
+    position: absolute;
+    bottom: 0;
+}
+
+
+.read-more {
+    height: min-content;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.paleta-con-service {
+    width: 100%;
+    max-width: 2020px;
+    padding-top: 80px;
+    margin: auto;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+
+.photoFrame {
+    width: 90%;
+    max-width: 1800px;
+    margin: 2rem 0;
+}
+
+.tagbgc {
+    margin: 15px;
+    background-color: #1F1628;
+    width: 100px;
+    padding: 5px 10px;
+    text-align: center;
+    border: 1px solid #767676;
+    border-radius: 30px;
+}
+
+.text-decoration-underline {
+    color: #fff !important;
+    transform: scale(1.3)
+}
+
+.service-selector {
+    color: #ccc;
+    animation: show .7s;
+}
+
+@keyframes show {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.paleta-con {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+
+
+/* cień na hover */
+/* .circle {
+    box-shadow: 0 0 1px 1px var(--card-bgc);
+}
+
+.circle:hover {
+    box-shadow: 0 0 3px 2px var(--card-bgc);
+} */
+
+.service-selector {
+    animation: hide-animation .7s reverse;
+    cursor: pointer;
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.service-card {
+    border-radius: 20px;
+    overflow: hidden;
+    /* background: linear-gradient(90deg, rgba(10, 40, 107, 1) 0%, rgba(18, 83, 185, 1) 100%, rgba(0, 212, 255, 1) 100%); */
+}
+
+.card-image {
+    /* max-height: 70%; */
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    filter: drop-shadow(0px 0px 20px #ffffffaa);
+    bottom: -2px;
+    transition: 0.37s;
+}
+.service-card:hover .card-image{
+    filter: drop-shadow(0px 0px 30px #ffffffaa);
+    transform: scale(1.03);
+    transition: 0.37s;
+
+}
+
+.service-button {
+    width: 100%;
+    margin: 0;
+    opacity: 0;
+    z-index: 20 !important;
+    position: relative;
+}
+
+.service-button:focus,
+.service-card:hover .service-button {
+    opacity: 1;
+}
+
+.button-parent {
+    width: 90%;
+    max-width: 300px;
+}
+.card-items p,h3 {
+    margin-right: 23px;
+}
+@media only screen and (max-width:1200px) {
+    
+    .img-con {
+        width: 55%;
+        aspect-ratio: 7/2;
+        z-index: 1;
+    }
+    .img-con img {
+        left: 75%;
+        z-index: 1;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width:700px) {
+    .img-con {
+        width: 80%;
+        aspect-ratio: 2/1;
+        z-index: 1;
+    }
+    .img-con img {
+        left: 10%;
+        z-index: 1;
+    }
+}
+.service-list li{
+    color: #FFF;
+    background-image: url("../../../images/list-arrow.png");
+    background-repeat: no-repeat;
+    background-size: 18px;
+    padding-left: 23px;
+    background-position-y: 40%;
+
+}
+.hide{
+    transition: opacity .3s;
+    opacity: 0;
+}
+
+.show{
+    transition: opacity .3s;
+    opacity: 1;
+}
+.first{
+    color: #fff !important;
+    transform: scale(1.3);
+    text-decoration: underline;
+}
+.accordion-body{
+    margin: 0 !important;
+    margin-bottom: 100px !important;
+    padding: 0;
+    background-color: none;
+}
+.accordion-item{
+    border: none;
+    border-radius: 20px !important;
+}
+.accordion{
+    height: min-content;
+}
+.fw-custom{
+    font-size: 110%;
+    font-weight: 500;
+}
+.reload{
+    animation: reloads 1s !important;
+}
+@keyframes reloads {
+    0%{
+        opacity: 1;
+    }
+    30%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

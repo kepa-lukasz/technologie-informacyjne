@@ -1,0 +1,34 @@
+{
+    "top" : [
+        "Ihr professioneller Partner im Bereich Internet-Technologien",
+        "Wir helfen Ihnen beim Einstieg in die Welt der Internettechnologien, indem wir eine Website oder mobile Anwendung erstellen oder Ihnen IT-Supportdienste anbieten.",
+        "Finde mehr heraus"
+    ],
+    "bottomTitle" : "Warum sollten Sie sich für uns entscheiden?",
+    "whyUs" : [
+        {
+            "title": "Nahtlose Kommunikation",
+            "content": "Wir sorgen in jeder Phase der Zusammenarbeit für eine reibungslose und offene Kommunikation, sodass Sie stets über den Projektfortschritt auf dem Laufenden sind."
+        },
+        {
+            "title": "Konkurrenzfähige Preise",
+            "content": "Wir bieten attraktive Preise, die flexibel auf Ihre individuellen Bedürfnisse und Ihr Budget zugeschnitten sind."
+        },
+        {
+            "title": "Innovative Lösungen:",
+            "content": "Wir verfolgen ständig die neuesten Trends und Technologien, um innovative Lösungen anzubieten, die Ihr Unternehmen hervorstechen lassen."
+        },
+        {
+            "title": "Flexibilität",
+            "content": "Wir gehen jede Aufgabe mit persönlichem Engagement an und passen unsere Leistungen an Ihre spezifischen Anforderungen an."
+        },
+        {
+            "title": "Unterstützung nach der Implementierung",
+            "content": "Wir verfolgen ständig die neuesten Trends und Technologien, um innovative Lösungen anzubieten, die Ihr Unternehmen hervorstechen lassen."
+        },
+        {
+            "title": "Hohe Qualität",
+            "content": "Wir sind bestrebt, erstklassigen Service zu bieten, um Ihre Erwartungen bei jedem Projekt zu übertreffen."
+        }
+     ]
+}

@@ -1,0 +1,15 @@
+{
+    "services" : [
+        "Usługi", "Strony internetowe", "Projekty graficzne i logotypy", "Aplikacjie mobilne", "Doradztwo IT"
+    ],
+    "contact" :[
+        "Kontakt", "Dla klientów", "Dla kandydatów"
+    ],
+    "another":[
+        "Pozostałe", "Polityka prywatności", "Projekty", "Realizacje"
+    ],
+    "rest" : [
+        "Znajdź nas", "Zaprojektowano i stworzono przez TechSquare.pl"
+    ]
+
+}

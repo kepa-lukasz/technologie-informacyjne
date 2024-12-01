@@ -1,0 +1,240 @@
+.productBody {
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.main {
+    position: relative !important;
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 758px) {
+    .productBody {
+        width: 100%;
+    }
+}
+
+.productLink {
+    background-color: #0e0e0e7d;
+    padding: 0.8rem 0.4rem;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.productLink:hover {
+    background-color: #2a2a2a7d;
+}
+
+
+.cardSpacing {
+    position: relative;
+    z-index: 10;
+}
+
+.photo {
+    display: block;
+    height: 350px !important;
+}
+
+@media only screen and (max-width: 400px) {
+    .photo {
+        height: 80vw !important;
+    }
+}
+
+.tagIcon {
+    width: 40px;
+    aspect-ratio: 1/1;
+}
+
+.tagBody {
+    display: flex;
+    background-color: #1F4177 !important;
+    border: 1px solid rgba(255, 255, 255, 0.606);
+    width: 8.7rem;
+    border-radius: 7px;
+    transition: 0.3s ease-out;
+}
+.tagBody img, .tagBody svg{
+    height: 44px !important;
+    width: 44px !important;
+    float: left;
+}
+.tagBody p{
+    padding-top: 10px;
+}
+
+.tagBody:hover {
+    transform: scale(1.06);
+}
+
+@media only screen and (max-width: 768px) {
+
+    .tagBody {
+        max-width: 170px;
+    }
+
+
+    .photo {
+        position: absolute;
+        top: 0;
+        /* width: 5%; */
+        right: 0;
+        opacity: 0.3;
+        z-index: 0;
+    }
+}
+
+.tagTitle {
+    margin: auto 0 auto auto;
+}
+
+.products-con {
+    background-color: rgba(43, 41, 52, 0.7);
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 100px;
+}
+
+.mb-400px {
+    margin-bottom: 400px;
+}
+
+.icon {
+    border-radius: 20px;
+}
+
+.cien1,
+.cien2,
+.cien3,
+.cien4 {
+    position: absolute;
+}
+.cien1::before,
+.cien3::before {
+    content: '';
+    box-shadow: 0 0 300px 350px rgba(84, 29, 147, .6);
+}
+
+.cien1::after,
+.cien3::after {
+    content: '';
+    box-shadow: 0 0 300px 350px rgba(84, 29, 147, .6);
+}
+
+
+
+.cien2 {
+    border-top-left-radius: 50%;
+    rotate: 15deg;
+    height: 300px;
+    width: 100px;
+    bottom: 0;
+    right: 0%;
+}
+
+.cien2::before,
+.cien4::before {
+    content: '';
+    box-shadow: 0 0 250px 250px rgba(113, 31, 123, 0.7);
+}
+
+.cien2::after,
+.cien4::after {
+    content: '';
+    box-shadow: 0 0 250px 250px rgba(113, 31, 123, 0.7);
+}
+
+
+.cien3 {
+    top: 12%;
+    right: -20vw !important;
+    height: 400px;
+    width: 1px;
+    transform: rotate(30deg);
+    border-top-right-radius: 50%;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    /* animation: ease-in-out dancing-cien1 4s infinite; */
+}
+
+.cien4 {
+    border-top-left-radius: 50%;
+    rotate: 15deg;
+    height: 300px;
+    width: 100px;
+    bottom: 0;
+    left: -20vw;
+}
+
+.productBody::before{
+    content: "";
+    position: absolute;
+    height: 160%;
+    max-height: 90vw;
+    aspect-ratio: 1/1;
+    background-color: #00173B;
+    opacity: 0.5;
+    left: -45%;
+    top: -30%;
+    border-radius: 50%;
+}
+.productBody::after{
+    content: "";
+    position: absolute;
+    width: 58%;
+    aspect-ratio: 1/1;
+    background-color: #6182BD;
+    opacity: 0.5;
+    right: 0;
+    bottom: -60%;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.logo{
+    filter: drop-shadow(0 0 2rem rgba(255, 255, 255, 0.639));
+}
+.macbook{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    object-fit: contain;  
+    
+    transition: 0.37s; 
+}
+.button{
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, 0);
+    z-index: 100;
+    width: 340px;
+    max-width: 90vw;
+    opacity: 0;  
+    transition: 0.37s;
+}
+.macbook-container:hover .button{
+    opacity: 1;
+    transition: 0.37s;
+}
+.macbook-container:hover .macbook{
+    filter: blur(5px);
+    transition: 0.37s;
+}
+
+.macbook-container .macbook{
+    transition: 0.37s;
+}
+
+.macbook-container:hover .button button{
+    scale: 1.1;
+    transition: 0.37s;
+}
+
+.macbook-container:hover .button button{
+    transition: 0.37s;
+}

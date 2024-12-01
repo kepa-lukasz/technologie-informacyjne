@@ -1,0 +1,16 @@
+{
+
+    "buttons" : [
+        "Usługi", "Nasze Realizacje", "Projekty", "Kontakt"
+    ],
+    "dropdown" : [
+        "Klient Indywidualny", "Małe i średnie firmy", "Duże firmy i instytucje", "WYBIERZ WIELKOŚĆ SWOJEJ FIRMY", "OFEROWANE USŁUGI"
+    ],
+    "subpages" : [
+        "Aplikacje mobilne", "Projekty graficzne i logotypy", "Doradztwo IT", "Strony Internetowe"
+    ],
+    "bottom":[
+        "Zachęcamy do kontaktu jeżeli szukasz", "Współpracy długoterminowej / Niestandardowej usługi / Konsultacji z zakresu IT",
+        "Wyślij zapytanie"
+    ]
+}

@@ -1,0 +1,33 @@
+*{
+    z-index: 2;
+}
+.technology-item button{
+    padding: 3px !important;
+    border: 1px solid #767676 !important;    
+    text-align: center;
+    display: flex;
+    width: 100% !important;
+}
+.img-holder img{
+    width: 100%;
+    border-radius: 8px;
+}
+.main{
+    padding-top: 100px;
+    overflow: hidden;
+    position: relative;
+}
+.step-circle-holder div{
+    background-color: #19191C;
+    width: 100px  !important;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    aspect-ratio: 1/1;
+}
+.step-circle-holder{
+    display: flex;
+    align-items: center;
+}

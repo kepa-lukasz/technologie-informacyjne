@@ -1,0 +1,71 @@
+            {
+                "Title1": {
+                    "text": "(NIEMIECKI) Projektowanie interfejsów graficznych",
+                    "star": false
+                },
+                "technologies": {
+                    "subtitle" : "ntdecken Sie die Kraft einzigartigen Designs mit unseren Grafikdesigns und Logos, die nicht nur Aufmerksamkeit erregen, sondern auch den Wiedererkennungswert Ihrer Marke in der digitalen Welt steigern. Unser individueller Ansatz und unsere Kreativität stellen sicher, dass jedes Projekt die Einzigartigkeit Ihres Unternehmens widerspiegelt und Ihnen hilft, sich von der Konkurrenz abzuheben.",
+                    
+                    "text": "technologie, których używamy",
+                    "items": [
+                        "Adobe XD",
+                        "Adobe Ps",
+                        "Figma"
+                    ]
+                },
+                "img": "uxui",
+                "Title2": {
+                    "text": "Proces wykonywania usługi",
+                    "star": true
+                },
+                "Steps": [
+                    {
+                        "delay": "0",
+                        "number": 1,
+                        "title": "1. Spotkanie z klientem",
+                        "text" : "Analiza celów biznesowych w celu zrozumienia wymagań klienta, określenie zakresu projektu, zaproponowanie terminu wykonania zlecenia oraz ustalenie budżetu."
+                    },
+                    {
+                        "delay": "150",
+                        "number": 2,
+                        "title": "2. Przygotowanie oferty",
+                        "text": "Przygotowanie spersonalizowanej oferty na podstawie przeprowadzonej wcześniej konsultacji. W ofercie zawarte będą szczegóły usługi, czas wykonania zlecenia oraz koszty"
+                    },
+                    {
+                        "delay": "0",
+                        "number": 3,
+                        "title": "3. Badania rynku",
+                        "text": "Sprawdzenie rynku i konkurencji związanej z działalnością klienta. Analiza trendów w dziedzinie grafiki i dostosowanie założeń projektowych do oczekiwań grupy docelowej."
+                    },
+                    {
+                        "delay": "150",
+                        "number": 4,
+                        "title": "4. Stworzenie koncepcji",
+                        "text" : "Stworzenie kilku wariantów koncepcyjnych, szkiców na podstawie zebranych wcześniej informacji. Propozycja kolorystyki i stylu, obranie odpowiedniej ścieżki w oparciu o feedback klienta."
+                    },
+                    {
+                        "delay": "0",
+                        "number": 5,
+                        "title": "5. Projektowanie",
+                        "text" : "Rozpoczęcia opracowywania grafiki w oparciu o wybraną kolorystykę i styl graficzny. Zapewnienie spójności wizualnej między różnymi elementami projektu"
+                    },
+                    {
+                        "delay": "150",
+                        "number": 6,
+                        "title": "6. Prezentacja Prezentacja wstępnych projektów",
+                        "text": "Omówienie elementów graficznych i uzgodnienie z klientem ewentualnych poprawek do naniesienia."
+                    },
+                    {
+                        "delay": "0",
+                        "number": 7,
+                        "title": "7. Finalizacja projektu",
+                        "text" : " Implementacja poprawek, dostarczenie pełnych wersji projektów graficznych w oparciu o wymagania zawarte w umowie. Przygotowanie i wysłanie materiałów klientowi."
+                    }
+                ],
+                "bottom" : {
+                    "star" : true,
+                    "link" : "https://www.youtube.com/watch?v=76RiFbiDokw",
+                    "text" : "Twój pomysł potrzebuje indywidualnego podejścia? Zapraszmay do kontaktu biuro@techsquare.pl",
+                    "buttonText" : "Zapraszamy do kontaktu"
+                }
+            }

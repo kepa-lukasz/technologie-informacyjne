@@ -1,0 +1,51 @@
+{
+    "Title1": {
+        "text": "Doradztwo IT",
+        "star": false
+    },
+    "technologies": {
+        "subtitle" : "Zapewnij sobie spokój ducha dzięki naszemu profesjonalnemu wsparciu IT. Od doradztwa technicznego po zaawansowane rozwiązania bezpieczeństwa - jesteśmy tutaj, aby pomóc Ci w każdym aspekcie zarządzania technologią w Twojej firmie.",
+
+        "text": "",
+        "items": [
+            
+        ]
+    },
+    "img": "web",
+    "Title2": {
+        "text": "Co oferujemy?",
+        "star": false
+    },
+    "Steps": [
+        {
+            "delay": "0",
+            "number": "doradztwo",
+            "title": "Doradztwo Techniczne",
+            "text": "Ekspertyzy i rekomendacje dla Twoich komputerów stacjonarnych i laptopów."
+        },
+        {
+            "delay": "150",
+            "number": "doradztwo",
+            "title": "Konfiguracja i Bezpieczeństwo",
+            "text": "Wsparcie w konfiguracji i zabezpieczaniu Twoich serwisów internetowych."
+        },
+        {
+            "delay": "0",
+            "number": "doradztwo",
+            "title": "Testy Bezpieczeństwa",
+            "text": "Profesjonalne testowanie Twoich serwisów i aplikacji, aby zapewnić ich bezpieczeństwo."
+        },
+        {
+            "delay": "150",
+            "number": "doradztwo",
+            "title": "Oprogramowanie Komercyjne",
+            "text": "Porady dotyczące wyboru i wykorzystania oprogramowania komercyjnego, dopasowane do Twoich potrzeb."
+        }
+    ],
+    "bottom" : {
+        "star" : true,
+        "link" : "https://www.youtube.com/watch?v=76RiFbiDokw",
+        "text" : "Twój pomysł potrzebuje indywidualnego podejścia? Zapraszamy do kontaktu biuro@techsquare.pl",
+        "buttonText" : "Zapraszamy do kontaktu"
+    }
+}

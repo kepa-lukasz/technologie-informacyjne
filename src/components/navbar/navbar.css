@@ -1,0 +1,360 @@
+
+:root{
+    --bg : #EEE;
+    --main-text: #000;
+    --secondary-text: #555;
+    --bottom-bg : #DDD;
+}
+.link_div {
+    color: var(--secondary-text);
+    padding-bottom: 0;
+}
+
+.link_div label {
+    cursor: pointer;
+}
+
+.link_div:hover {
+    color: var(--main-text);
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.optionsBody {
+    height: 363px;
+    /* background-color: var(--primary); */
+    background-color: var(--bg);
+    border: 1px solid #ffffff35;
+    border-radius: 5px;
+    padding: 0.2rem 0.3rem;
+    width: 800px;
+    z-index: 15;
+    position: absolute;
+    right: -280px;
+    margin-top: 20px;
+}
+.projects{
+    width: 250px !important;
+    height: 100px;
+    margin-top: 20px;
+    right: -70px;
+}
+.menu_container{
+    height: 266px;
+    margin-bottom: 0;
+}
+.tag{
+    color: var(--main-text);
+    height: 14px;
+    font-size: .95rem;
+    font-weight: bolder;
+}
+.bottom-section{
+    background-color: var(--bottom-bg) !important;
+    align-self: first baseline;
+    color: black;
+    border-radius: 0px 0px 4px 4px ;
+    box-sizing: border-box;
+    height: 80px;
+    margin-top: 15px !important;
+}
+
+.optionsBody:after {
+    content: "";
+    width: 810px;
+    position: absolute;
+    height: 20px;
+    top: -20px;
+    left: -10px;
+}
+.projects::after{
+    width: 320px;   
+}
+
+.optionsBody::before {
+    content: "";
+    width: 25px;
+    aspect-ratio: 1/1;
+    border: 1px solid #ffffff35;
+    background-color: var(--bg);
+    position: absolute;
+    top: -12px;
+    box-sizing: border-box;
+    right: 311px;
+    border-bottom: none;
+    border-right: none;
+    rotate: 45deg;
+}
+.projects::before{
+    right: 110px
+}
+a {
+    text-decoration: none;
+}
+
+.navbar-body {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-bgc {
+    animation: bgc-appear 0.3s ease forwards;
+}
+
+@keyframes bgc-appear {
+    0% {
+        background-color: rgba(39, 40, 44, 0);
+    }
+
+    50% {
+        box-shadow: 0px 5px 5px 0px var(--button-violet);
+    }
+
+    100% {
+        background-color: var(--primary);
+        box-shadow: 0px 5px 15px 0px var(--button-violet);
+    }
+}
+
+.nav-trs {
+    animation: bgc-disappear 0.3s ease forwards
+}
+
+@keyframes bgc-disappear {
+
+    0% {
+        background-color: var(--primary);
+        box-shadow: 0px 5px 15px 0px var(--button-violet);
+    }
+
+    100% {
+        background-color: rgba(39, 40, 44, 0);
+        box-shadow: none;
+    }
+}
+
+.nav-logo {
+    animation: logo-md 0.4s ease-out forwards;
+    max-width: 100%;
+}
+
+.nav-logo-sm {
+    animation: logo-sm 0.4s ease-out forwards;
+
+}
+
+@keyframes logo-md {
+    0% {
+        max-height: 70px;
+    }
+
+    100% {
+        max-height: 80px;
+    }
+}
+
+@keyframes logo-sm {
+    0% {
+        max-height: 70px;
+    }
+
+    100% {
+        max-height: 60px;
+    }
+}
+
+.nav-menu {
+    display: flex;
+    margin-left: auto;
+    margin-right: 0.5rem;
+}
+
+.nav-menu>p,
+.dropdown>p,
+.dropdownM>p {
+    margin: auto 15px;
+    padding: 8px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.nav-menu>.ap,
+.dropdown>.ap,
+.dropdownM>.ap {
+    padding: 8px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.dropdown>p,
+.ap {
+    padding: 8px 23px !important;
+}
+
+.nav-menu>p:hover,
+.dropdown>p:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: #1111147a;
+    ;
+}
+
+.nav-menu>.ap:hover,
+.dropdown>.ap:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: #1111147a;
+}
+
+/* offcanvas */
+.offcanvas {
+    overflow: hidden;
+}
+
+.offcanvas-body {
+    overflow: hidden;
+}
+
+.offcanvas-logo {
+    max-width: 55%;
+}
+
+.btn-close {
+    background-color: white;
+    padding: 15px !important;
+}
+
+.offcanvas p,
+.a {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.grey {
+    color: var(--secondary-text);
+}
+.projectsgrey{
+    color: var(--secondary-text);
+}
+.projectsgrey:hover{
+    color: var(--main-text);
+}
+
+.lower-text{
+    
+    font-size: .9rem;
+    color: var(--main-text);
+    padding-left: 10px;
+    margin-bottom: 0;
+    text-align: left;
+}
+.lower-title{
+    margin-top: 5px;
+    font-size: medium;
+    color: var(--main-text);
+    padding-bottom: 5px;
+    margin-bottom: 0;
+    padding-left: 10px;
+    text-align: left;
+    
+}
+
+/* mobile */
+
+
+.nav-menu>p:hover,
+.dropdownM>p:hover {
+    cursor: pointer;
+    background-color: #1111147a;
+    transform: scaleY(1.05);
+}
+
+.nav-menu>.ap:hover,
+.dropdownM>.ap:hover {
+    cursor: pointer;
+    background-color: #1111147a;
+    transform: scaleY(1.05);
+}
+
+.offcanvas-body .ap p {
+    margin: 0;
+    border-radius: 5px;
+    padding: 7px;
+    padding-left: 22px;
+    transform: scaleY(1.05);
+}
+
+.offcanvas-body .ap p:hover {
+    cursor: pointer;
+    transform: scaleY(1.05);
+    background-color: #1111147a;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.accordionP {
+    padding: 8px;
+    padding-left: 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.accordionP:hover {
+    cursor: pointer;
+    transform: scaleY(1.05);
+    background-color: #1111147a;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.accordion-Active {
+    cursor: pointer;
+    transform: scaleY(1.05);
+    background-color: #1111147a;
+    border-radius: 5px;
+}
+.v-line{
+    /* margin-top: 25px !important; */
+    width: 1px;
+    height: 215px;
+    background-color: var(--secondary-text);
+    opacity: .8;
+    
+}
+.nav-dropdown-icon{
+    width: 0%;
+    height: 20px;
+    margin-left: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: start;
+}
+.nav-dropdown-icon img{
+    width: 20px;
+    height: 20px;
+}
+
+.icon-handler:hover .nav-dropdown-icon{
+    width: 20px;
+    animation: show-dropdown-icon .3s;
+}
+.parent-hover{
+    color: var(--main-text) !important;
+}
+.parent-hover .nav-dropdown-icon{
+    width: 20px;
+}
+
+@keyframes show-dropdown-icon {
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 20px;
+    }
+}

@@ -1,0 +1,135 @@
+.productBody {
+    transition: 0.37s !important;
+    width: 90%;
+    border-radius: 7px;
+    overflow: hidden;
+    position: relative;
+}
+
+@media only screen and (max-width: 758px) {
+    .productBody {
+        width: 100%;
+        transition: 0.37s;
+    }
+}
+
+.productLink {
+    background-color: #0e0e0e7d;
+    padding: 0.8rem 0.4rem;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.productLink:hover {
+    background-color: #2a2a2a7d;
+}
+
+
+.cardSpacing {
+    padding-bottom: 0;
+    position: relative;
+    z-index: 10;
+}
+
+.photo {
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    transition: 0.37s;
+}
+
+.productBody:hover .photo {
+    filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.541));
+    transition: 0.37s;
+    scale: 1.02;
+}
+
+.productBody:hover {
+    transition: 0.37s;
+    scale: 1.03;
+}
+
+.tagIcon {
+    width: 40px;
+    aspect-ratio: 1/1;
+}
+
+.tagBody {
+    display: flex;
+    background-color: #ffffff26;
+    /* width: 15rem; */
+    margin: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 7px;
+    transition: 0.3s ease-out;
+}
+
+.tagBody:hover {
+    transform: scale(1.06);
+}
+
+@media only screen and (max-width: 992px) {
+    .tagBody {
+        width: 70% !important;
+        max-width: 170px;
+    }
+
+    .photo {
+        position: absolute;
+        top: 0;
+        width: 45%;
+        right: 0;
+        opacity: 0.3;
+        z-index: 0;
+    }
+}
+
+.tagTitle {
+    margin: auto 0 auto auto;
+}
+
+.products-con {
+    background-color: rgba(43, 41, 52, 0.7);
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 100px;
+}
+
+.mb-400px {
+    margin-bottom: 400px;
+}
+
+.icon {
+    background-color: rgba(29, 23, 36, 1);
+    border-radius: 20px;
+}
+
+.shop-badge {
+    height: 60px;
+    cursor: pointer;
+    transition: 0.35s;
+}
+
+.shop-badge:hover {
+    transform: scale(1.05);
+    transition: 0.35s;
+}
+
+.productBody::after {
+    width: 50%;
+    aspect-ratio: 12/10;
+    content: " ";
+    position: absolute;
+    background-color: #6181BC;
+    bottom: -65%;
+    right: -10%;
+    z-index: 0;
+    border-radius: 50%;
+}
+.productBody:hover .button-con button{
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.346));
+    transition: 0.37s;
+}

@@ -1,0 +1,81 @@
+{
+    "titles" : [
+        "Palette of our services",
+        "Large companies and institutions",
+        "Individual clients",
+        "Medium and small companies"
+    ],
+    "desc": "Welcome to the world of modern internet technologies, where your business needs meet professional solutions. As your trusted partner in the field of creating websites and mobile applications, we offer comprehensive services that will help you exist in the digital world.",
+    "paleteSubtitle": [
+        "Advanced, scalable and secure digital strategies that support comprehensive and dynamic enterprise environments.",
+        "Flexible and cost-effective digital services that support the growth and market competitiveness of small and medium-sized enterprises.",
+        "Digital solutions tailored to your unique needs that will help you establish an online presence and implement personal projects."
+    ],
+    "data" : [
+        {
+            "id": 0,
+            "bg": "linear-gradient(120deg, rgba(191,71,221,1) 0%, rgba(203,195,204,1) 100%)",
+            "title": "Graphic designs, logos",
+            "svg": "painting-palette",
+            "link": "/uiux",
+            "color": "#BF47DD",
+            "img": "uxui",
+            "desc": [
+                "Analysis of customer needs, presentation of possible graphic solutions",
+                "Creating UX variants of graphic design.",
+                "Creating a certain number of concepts",
+                "Creating an order according to the selected concept.",
+                "Implementation of corrections and sending the finished project to the client"
+            ]
+        },
+        {
+            "id": 1,
+            "bg": "linear-gradient(120deg, rgba(10,40,107,1) 0%, rgba(18,83,185,1) 100%)",
+            "title": "Websites",
+            "svg": "globe",
+            "link": "/web",
+            "color": "#1253B9",
+            "img": "web",
+            "desc": [
+                "Analysis of customer needs and development of an action strategy",
+                "SEO, website content development",
+                "Creating a conceptual framework of the website",
+                "User interface design",
+                "Writing, testing and implementing a website",
+                "36 months warranty"
+            ]
+        },
+        {
+            "id": 2,
+            "bg": "linear-gradient(120deg, rgba(71,176,221,1) 0%, rgba(103,108,236,1) 100%)",
+            "title": "Mobile Applicatinos",
+            "svg": "phone",
+            "img": "mobile",
+            "link": "/mobile",
+            "color": "#47B0DD",
+            "desc": [
+                "Customer needs analysis",
+                "Preparation of an application development and implementation strategy",
+                "Creating a conceptual framework of the application",
+                "UI and application architecture design",
+                "Writing, testing and implementing a mobile application",
+                "26 months warranty"
+            ]
+        },
+        {
+            "id": 3,
+            "bg": "linear-gradient(120deg, rgba(255,138,0,1) 0%, rgba(208,201,28,1) 100%)",
+            "title": "IT Support",
+            "img": "it-support",
+            "svg": "question-mark",
+            "link": "/itsupport",
+            "color": "#FF8A00",
+            "desc": [
+                "Consulting in the field of desktop computers and laptops",
+                "Help in configuring and securing websites",
+                "Testing websites and applications for security.",
+                "Commercial software consulting"
+            ]
+        }
+    ]
+}

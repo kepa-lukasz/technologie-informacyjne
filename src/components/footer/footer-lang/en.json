@@ -1,0 +1,15 @@
+{
+    "services" : [
+        "Services", "Websites", "Graphic designs, logos", "Mobile Applicatinos", "IT Support"
+    ],
+    "contact" :[
+        "Contact", "For Clients", "For Clients?"
+    ],
+    "another":[
+        "Another", "Privacy policy", "Projects", "Career", "Realizations"
+    ],
+    "rest" : [
+        "Find us", "Designed and created by TechSquare.pl"
+    ]
+
+}

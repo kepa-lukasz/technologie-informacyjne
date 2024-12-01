@@ -1,0 +1,16 @@
+{
+
+    "buttons" : [
+        "Services", "Our Projects", "Projects", "Contact"
+    ],
+    "dropdown" : [
+        "Individual Client", "Small and medium-sized companies", "Large companies and institutions", "SELECT THE SIZE OF YOUR COMPANY", "SERVICES OFFERED"
+    ],
+    "subpages" : [
+        "Mobile applications", "Graphic designs and logos", "IT support", "Websites"
+    ],
+    "bottom":[
+        "Please contact us if you are looking for", "Long-term cooperation / Custom service / IT consultation",
+        "Send inquiry"
+    ]
+}

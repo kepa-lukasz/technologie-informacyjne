@@ -1,0 +1,20 @@
+{
+        "footer": {
+            "services": {
+                "web": "Web Dev",
+                "UI": "UI/UX Design",
+                "mobile": "Mobile Dev",
+                "copywrite": "Copywriting",
+                "itSupp": "IT support"
+            },
+            "contact": {
+                "client": "For clients",
+                "candidates": "For candidates"
+            },
+            "lang": {
+                "pl": "Polish",
+                "en": "English",
+                "en-GB": "English"
+            }
+        }
+}

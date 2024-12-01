@@ -1,0 +1,72 @@
+{
+    "Title1": {
+        "text": "(NIEMIECKI) śmiga sample",
+        "star": false
+    },
+    "technologies": {
+        "subtitle" : "Mit unserem professionellen IT-Support können Sie beruhigt sein. Von technischer Beratung bis hin zu fortschrittlichen Sicherheitslösungen sind wir für Sie da, um Sie bei allen Aspekten des Technologiemanagements in Ihrem Unternehmen zu unterstützen.",
+
+        "text": "technologie, których używamy",
+        "items": [
+            "kamienie.js",
+            "dzidy.NET",
+            "koło.NET C#",
+            "japko.NET"
+        ]
+    },
+    "img": "web",
+    "Title2": {
+        "text": "Proces wykonywania usługi",
+        "star": true
+    },
+    "Steps": [
+        {
+            "delay": "0",
+            "number": 1,
+            "title": "1. Konsultacja z Klientem",
+            "text": "Gorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis."
+        },
+        {
+            "delay": "150",
+            "number": 2,
+            "title": "2. Oszacowanie terminu i ceny",
+            "text": "Gorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis."
+        },
+        {
+            "delay": "0",
+            "number": 3,
+            "title": "3. Przedstawienie wstępnego projektu",
+            "text": "Gorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis."
+        },
+        {
+            "delay": "150",
+            "number": 4,
+            "title": "4. Produkcja",
+            "text": "Gorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis."
+        },
+        {
+            "delay": "0",
+            "number": 5,
+            "title": "5. Przedstawienie wstępnego projektu",
+            "text": "Gorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis."
+        },
+        {
+            "delay": "150",
+            "number": 6,
+            "title": "6. Naniesienie poprawek",
+            "text": "Gorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis."
+        },
+        {
+            "delay": "0",
+            "number": 7,
+            "title": "7. Odbiór projektu i wdrożenie",
+            "text": "Gorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis."
+        }
+    ],
+    "bottom" : {
+        "star" : true,
+        "link" : "https://www.youtube.com/watch?v=76RiFbiDokw",
+        "text" : "Twój pomysł potrzebuje indywidualnego podejścia? Zapraszmay do kontaktu biuro@techsquare.pl",
+        "buttonText" : "Zapraszamy do kontaktu"
+    }
+}

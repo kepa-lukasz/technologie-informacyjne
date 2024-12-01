@@ -1,0 +1,35 @@
+{
+    "top" : [
+        "Your professional partner in the field of Internet technologies",
+        "We will help you enter the world of internet technologies by creating a website, mobile application, or providing you with IT support services.",
+        "Find out more"
+    ],
+    "bottomTitle" : "Why should you choose us?",
+
+    "whyUs" : [
+        {
+            "title": "Seamless Communication",
+            "content": "We ensure smooth and open communication at every stage of cooperation, ensuring that you are always up to date with the project's progress."
+        },
+        {
+            "title": "Competitive prices",
+            "content": "We offer attractive prices that are flexibly tailored to your unique needs and budget."
+        },
+        {
+            "title": "Innovative Solutions:",
+            "content": "We constantly follow the latest trends and technologies to offer innovative solutions that will make your business stand out."
+        },
+        {
+            "title": "Flexibility",
+            "content": "We approach each task with personal commitment, adapting our services to your specific requirements."
+        },
+        {
+            "title": "Post Implementation Support",
+            "content": "We constantly follow the latest trends and technologies to offer innovative solutions that will make your business stand out."
+        },
+        {
+            "title": "High quality",
+            "content": "We are committed to providing first-class service to exceed your expectations on every project."
+        }
+     ]
+}

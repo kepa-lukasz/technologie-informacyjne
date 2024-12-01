@@ -1,0 +1,40 @@
+{
+    "top": [
+        "Twój profesjonalny partner w dziedzinie technologii internetowych",
+        "Witaj w świecie nowoczesnych technologii internetowych, gdzie Twoje potrzeby biznesowe spotykają się z profesjonalnymi rozwiązaniami. Jako Twój zaufany partner w dziedzinie tworzenia stron internetowych i aplikacji mobilnych, oferujemy kompleksowe usługi, które pomogą Ci zaistnieć w cyfrowym świecie.",
+        "Dowiedz się więcej"
+    ],
+    "bottomTitle": "Dlaczego powinieneś wybrać nas?",
+    "whyUs": [
+        {
+            "title": "Bezproblemowa Komunikacja",
+            "content": "Zapewniamy płynną i otwartą komunikację na każdym etapie współpracy, gwarantując, że zawsze jesteś na bieżąco z postępem projektu."
+        },
+        {
+            "title": "Konkurencyjne ceny",
+            "content": "Oferujemy atrakcyjne ceny, które są elastycznie dopasowane do Twoich unikalnych potrzeb i możliwości budżetowych."
+        },
+        {
+            "title": "Innowacyjne Rozwiązania:",
+            "content": "Stale śledzimy najnowsze trendy i technologie, aby oferować innowacyjne rozwiązania, które wyróżnią Twój biznes."
+        },
+        {
+            "title": "Elastyczność",
+            "content": "Podchodzimy do każdego zadania z osobistym zaangażowaniem, dostosowując nasze usługi do Twoich specyficznych wymagań."
+        },
+        {
+            "title": "Wsparcie Po Realizacji",
+            "content": "Stale śledzimy najnowsze trendy i technologie, aby oferować innowacyjne rozwiązania, które wyróżnią Twój biznes."
+        },
+        {
+            "title": "Wysoka jakość",
+            "content": "Jesteśmy zobowiązani do dostarczania usług najwyższej klasy, aby przekroczyć Twoje oczekiwania w każdym projekcie."
+        }
+    ],
+    "Products" : [
+        {
+            "text" : "Aplikacja umożliwia wyszukiwanie znajomych do wspólnej gry poprzez filtrowanie wyników na podstawie wspólnych gier, preferowanego języka komunikacji oraz płci. ",
+            "desc" : "Dzięki temu użytkownicy mogą łatwo znaleźć osoby o podobnych zainteresowaniach, co pozwala na bardziej satysfakcjonującą grę online!"   
+        }
+    ]
+}

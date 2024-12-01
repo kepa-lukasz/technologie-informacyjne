@@ -1,0 +1,30 @@
+.lngContainer{
+    position: relative;
+}
+.lngSelector{
+    background-color: transparent;
+    color:white;
+    border: none;
+}
+.options-list{
+
+    position: absolute;
+    bottom: 80%;
+    left: 0;
+    
+    background-color: var(--primary);
+    animation: appear 0.6s ease forwards;
+    overflow: hidden;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 0;
+}
+@keyframes appear {
+    0%{
+        height: 1px;
+    }
+    100%{
+        height: 5.5rem;
+    }
+}

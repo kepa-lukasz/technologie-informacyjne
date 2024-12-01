@@ -1,0 +1,14 @@
+:root{
+    --card-shadow-color : #FFB82E;
+}
+.aboutCard:hover{
+    box-shadow: 0 0 3px 2px var(--card-shadow-color);
+    transform: scale(1.01) !important;
+    transition-duration: .15s !important;
+    cursor: pointer;
+}
+.aboutCard{
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    transform: scale(1);
+    transition-duration: .15s;
+}

@@ -1,0 +1,78 @@
+{
+    "Title1": {
+        "text": "NIEMIECKI",
+        "star": false
+    },
+    "technologies": {
+        "subtitle" : "Verwandeln Sie Ihre Ideen in innovative mobile Anwendungen, die Benutzer bei jedem Schritt begeistern werden. Unser Expertenteam sorgt dafür, dass Ihre Anwendung funktional, intuitiv und vor allem auf Ihre Bedürfnisse zugeschnitten ist.",
+
+        "text": "technologie, których używamy",
+        "items": [
+            "niemiecki.js",
+            "dzidy.NET",
+            "koło.NET C#",
+            "japko.NET"
+        ]
+    },
+    "img": "mobile",
+    "Title2": {
+        "text": "Proces wykonywania usługi",
+        "star": true
+    },
+    "Steps": [
+        {
+            "delay": "0",
+            "number": 1,
+            "title": "1. Konsultacja początkowa",
+            "text": "Analiza i omówienie potrzeb i wymagań klienta, w celu wybrania najlepszych rozwiązań. Zaproponowanie optymalnego terminu  oraz ustalenie budżetu."
+        },
+        {
+            "delay": "150",
+            "number": 2,
+            "title": "2. Przygotowanie oferty",
+            "text": "Przygotowanie spersonalizowanej oferty na podstawie przeprowadzonej wcześniej konsultacji. W ofercie zawarte będą szczegóły usługi, czas wykonania zlecenia oraz koszty."
+        },
+        {
+            "delay": "0",
+            "number": 3,
+            "title": "3. Analiza rynku",
+            "text": "Sprawdzenie rynku i konkurencji związanej z działalnością klienta. Analiza trendów w dziedzinie projektowania aplikacji mobilnych i dostosowanie założeń projektowych do oczekiwań klienta."
+        },
+        {
+            "delay": "150",
+            "number": 4,
+            "title": "4. Stworzenie koncepcji",
+            "text": "Stworzenie kilku wariantów koncepcyjnych, szkiców oraz diagramów logicznych na podstawie zebranych wcześniej informacji. Propozycja kolorystyki i stylu, obranie odpowiedniej ścieżki rozwoju aplikacji w oparciu o feedback klienta."
+        },
+        {
+            "delay": "0",
+            "number": 5,
+            "title": "5. Projektowanie i implementacja",
+            "text": "Opracowanie i ujednolicenie stylu aplikacji mobilnej w oparciu o konsultacje i wcześniejszy feedback klienta. Implementacja logiki."
+        },
+        {
+            "delay": "150",
+            "number": 6,
+            "title": "6. Prezentacja rozwiązania",
+            "text": "Prezentacja stworzonego rozwiązania i wprowadzenie ewentualnych poprawek zgodnie z uwagami klienta."
+        },
+        {
+            "delay": "0",
+            "number": 7,
+            "title": "7. Finalizacja projektu",
+            "text": "Finalizacja i wdrożenie projektu aplikacji mobilnej. Wysłanie wszystkich niezbędnych materiałów, instrukcji i zaleceń związanych z zarządzaniem aplikacją."
+        },
+        {
+            "delay": "150",
+            "number": 8,
+            "title": "8. Wsparcie posprzedażowe",
+            "text": "Nasi klienci otrzymują od nas gwarancję posprzedażową na 36 miesięcy. W tym czasie jesteśmy dostępni w razie jakichkolwiek pytań i problemów związanych z działaniem aplikacji."
+        }
+    ],
+    "bottom" : {
+        "star" : true,
+        "link" : "https://www.youtube.com/watch?v=76RiFbiDokw",
+        "text" : "Twój pomysł potrzebuje indywidualnego podejścia? Zapraszmay do kontaktu biuro@techsquare.pl",
+        "buttonText" : "Zapraszamy do kontaktu"
+    }
+}

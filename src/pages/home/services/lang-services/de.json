@@ -1,0 +1,81 @@
+{
+    "titles": [
+        "Palette unserer Leistungen",
+        "Große Unternehmen und Institutionen",
+        "Einzelkunden",
+        "Mittlere und kleine Unternehmen"
+    ],
+    "desc": "Willkommen in der Welt der modernen Internet-Technologien, in der Ihre Geschäftsanforderungen auf professionelle Lösungen treffen. Als Ihr vertrauenswürdiger Partner im Bereich der Erstellung von Websites und mobilen Anwendungen bieten wir umfassende Dienstleistungen, die Ihnen helfen, in der digitalen Welt zu bestehen. ",
+    "paleteSubtitle": [
+        "Fortschrittliche, skalierbare und sichere digitale Strategien, die umfassende und dynamische Unternehmensumgebungen unterstützen.",
+        "Flexible und kostengünstige digitale Dienste, die das Wachstum und die Marktwettbewerbsfähigkeit kleiner und mittlerer Unternehmen unterstützen.",
+        "Auf Ihre individuellen Bedürfnisse zugeschnittene digitale Lösungen, die Ihnen beim Aufbau einer Online-Präsenz und der Umsetzung persönlicher Projekte helfen."
+    ],
+    "data": [
+        {
+            "id": 0,
+            "bg": "linear-gradient(120deg, rgba(191,71,221,1) 0%, rgba(203,195,204,1) 100%)",
+            "title": "Grafikdesigns, Logos",
+            "svg": "painting-palette",
+            "link": "/uiux",
+            "color": "#BF47DD",
+            "img": "uxui",
+            "desc": [
+                "Analyse und Strategie: Gründliche Bedarfsanalyse und kreative, maßgeschneiderte Lösungen.",
+                "UX Design: Intuitive und ästhetische UX-Varianten, maßgeschneidert auf Ihre Bedürfnisse.",
+                "Kreative Konzepte: Einzigartige Konzepte, die Ihre Markenvision widerspiegeln.",
+                "Umsetzung der Vision: Wir überführen das ausgewählte Konzept in ein umsetzungsreifes Projekt.",
+                "Der letzte Schliff: Wir verfeinern die Details und liefern ein Projekt, das Ihren Erwartungen entspricht."
+            ]
+        },
+        {
+            "id": 1,
+            "bg": "linear-gradient(120deg, rgba(10,40,107,1) 0 %, rgba(18,83,185,1) 100 %",
+            "title": "Websites",
+            "svg": "globus",
+            "link": "/web",
+            "color": "#1253B9",
+            "img": "web",
+            "desc": [
+                "Analyse der Kundenbedürfnisse und Entwicklung einer Handlungsstrategie",
+                "SEO, Entwicklung von Website-Inhalten",
+                "Erstellung eines konzeptionellen Rahmenwerks für die Website",
+                "UI-Design",
+                "Eine Website schreiben, testen und implementieren",
+                "36 Monate Garantie"
+            ]
+        },
+        {
+            "id": 2,
+            "bg": "linear-gradient(120deg, rgba(71,176,221,1) 0%, rgba(103,108,236,1) 100%)",
+            "title": "Mobile Apps",
+            "svg": "phone",
+            "img": "mobile",
+            "link": "/mobile",
+            "color": "#47B0DD",
+            "desc": [
+                "Analyse und Strategie: Wir passen Anwendungen an Ihre Bedürfnisse an und planen jeden Entwicklungsschritt.",
+                "Konzept und Framework: Wir erstellen ein Anwendungsframework, das die Grundlage für die weitere Arbeit bildet.",
+                "Design und Architektur: Wir entwerfen eine intuitive Benutzeroberfläche und eine robuste Architektur für beste Leistung.",
+                "Entwicklung und Umsetzung: Von der Codierung bis zum Test – wir erstellen umsetzungsreife mobile Anwendungen.",
+                "Garantie: Wir gewähren eine 26-monatige Garantie für Ihre Sicherheit und Zufriedenheit."
+            ]
+        },
+        
+        {
+            "id": 3,
+            "bg": "linear-gradient(120deg, rgba(255,138,0,1) 0%, rgba(208,201,28,1) 100%)",
+            "title": "IT-Unterstützung",
+            "img": "it-support",
+            "svg": "question-mark",
+            "link": "/itsupport",
+            "color": "#FF8A00",
+            "desc": [
+                "Technische Beratung: Expertenmeinungen und Empfehlungen für Ihre Desktop-Computer und Laptops.",
+                "Konfiguration und Sicherheit: Unterstützung bei der Konfiguration und Sicherung Ihrer Websites.",
+                "Sicherheitstests: Professionelle Prüfung Ihrer Websites und Anwendungen, um deren Sicherheit zu gewährleisten.",
+                "Kommerzielle Software: Beratung zur Auswahl und Nutzung kommerzieller Software, maßgeschneidert auf Ihre Bedürfnisse."
+            ]
+        }
+    ]
+}
