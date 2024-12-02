@@ -71,17 +71,17 @@ function App() {
             <HashRouter basename={basename}>
               <Routes>
                 <Route path="/" element={<HomeEL lang={preferredLanguage} />} />
-                <Route path="/home" element={<HomeEL lang={preferredLanguage} />} />
-                <Route path="/our-projects" element={<OurProjects lang={preferredLanguage} />} />
-                <Route path="/privacy-policy" element={<Privacy lang={preferredLanguage} />} />
-                <Route path="/mateup/privacy-policy" element={<MateUpPrivacy />} />
-                <Route path="/itsupport" element={<Services lang={preferredLanguage} page="sample" title="IT support" />} />
-                <Route path="/uiux" element={<Services lang={preferredLanguage} page="uxui" title="UI UX" />} />
-                <Route path="/mobile" element={<Services lang={preferredLanguage} page="mobile" title="Mobile" />} />
-                <Route path="/web" element={<Services lang={preferredLanguage} page="web" title="Web dev" />} />
-                <Route path="/mateup" element={<Mateup lang={preferredLanguage} />} />
-                <Route path="/contact" element={<Contact lang={preferredLanguage} source="page" />} />
-                <Route path="*" element={<Er404 />} />
+                <Route path="/technologie-informacyjne/home" element={<HomeEL lang={preferredLanguage} />} />
+                <Route path="/technologie-informacyjne/our-projects" element={<OurProjects lang={preferredLanguage} />} />
+                <Route path="/technologie-informacyjne/privacy-policy" element={<Privacy lang={preferredLanguage} />} />
+                <Route path="/technologie-informacyjne/mateup/privacy-policy" element={<MateUpPrivacy />} />
+                <Route path="/technologie-informacyjne/itsupport" element={<Services lang={preferredLanguage} page="sample" title="IT support" />} />
+                <Route path="/technologie-informacyjne/uiux" element={<Services lang={preferredLanguage} page="uxui" title="UI UX" />} />
+                <Route path="/technologie-informacyjne/mobile" element={<Services lang={preferredLanguage} page="mobile" title="Mobile" />} />
+                <Route path="/technologie-informacyjne/web" element={<Services lang={preferredLanguage} page="web" title="Web dev" />} />
+                <Route path="/technologie-informacyjne/mateup" element={<Mateup lang={preferredLanguage} />} />
+                <Route path="/technologie-informacyjne/contact" element={<Contact lang={preferredLanguage} source="page" />} />
+                <Route path="/technologie-informacyjne*" element={<Er404 />} />
               </Routes>
             </HashRouter>
           </div>
