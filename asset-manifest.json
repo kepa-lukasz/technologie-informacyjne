@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/technologie-informacyjne/static/css/main.d5810039.css",
-    "main.js": "/technologie-informacyjne/static/js/main.90bc9144.js",
+    "main.js": "/technologie-informacyjne/static/js/main.9e5c4f9c.js",
     "static/css/131.28d5f76b.chunk.css": "/technologie-informacyjne/static/css/131.28d5f76b.chunk.css",
     "static/js/131.55036552.chunk.js": "/technologie-informacyjne/static/js/131.55036552.chunk.js",
     "static/css/902.903b9924.chunk.css": "/technologie-informacyjne/static/css/902.903b9924.chunk.css",
@@ -57,7 +57,7 @@
     "static/media/single.svg": "/technologie-informacyjne/static/media/single.78638363231f9e9d3a613b948b90edb7.svg",
     "static/media/germany-flag-icon.svg": "/technologie-informacyjne/static/media/germany-flag-icon.d9625f93cc14fcc164d63bed94bec76e.svg",
     "main.d5810039.css.map": "/technologie-informacyjne/static/css/main.d5810039.css.map",
-    "main.90bc9144.js.map": "/technologie-informacyjne/static/js/main.90bc9144.js.map",
+    "main.9e5c4f9c.js.map": "/technologie-informacyjne/static/js/main.9e5c4f9c.js.map",
     "131.28d5f76b.chunk.css.map": "/technologie-informacyjne/static/css/131.28d5f76b.chunk.css.map",
     "131.55036552.chunk.js.map": "/technologie-informacyjne/static/js/131.55036552.chunk.js.map",
     "902.903b9924.chunk.css.map": "/technologie-informacyjne/static/css/902.903b9924.chunk.css.map",
@@ -89,6 +89,6 @@
   },
   "entrypoints": [
     "static/css/main.d5810039.css",
-    "static/js/main.90bc9144.js"
+    "static/js/main.9e5c4f9c.js"
   ]
 }
