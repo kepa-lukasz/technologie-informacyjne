@@ -1,187 +1,117 @@
-//react things
+import React, { createContext, useContext, useState, useEffect, Suspense, lazy } from 'react';
+import { Routes, Route, BrowserRouter, HashRouter } from 'react-router-dom';
 import { useCookies } from 'react-cookie';
-import './App.css';
-import './shadows.css'
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import React, { Suspense, lazy, useRef, useState, useEffect } from 'react';
 import { Container } from 'react-bootstrap';
-//images
-import icon from "./components/photos/icon.png"
+import Aos from 'aos';
+import "aos/dist/aos.css";
+import './App.css';
+import './shadows.css';
 
-//main components
+// Components
 import Scrollanimations from './App-functions/scroll-animations';
 import Footer from './components/footer/footer';
 import Navbar from './components/navbar/navbar';
-
-
-import Aos from 'aos';
-import "aos/dist/aos.css"
 import JqueryScripts from './JqueryCon';
-//pages
-const Mateup = lazy(() => import('./pages/mateup/mateup'))
-const OurProjects = lazy(() => import('./pages/ourProjects/ourProjects'))
+import icon from "./components/photos/icon.png";
+
+// Lazy-loaded pages
+const Mateup = lazy(() => import('./pages/mateup/mateup'));
+const OurProjects = lazy(() => import('./pages/ourProjects/ourProjects'));
 const Services = lazy(() => import('./pages/services/services'));
 const Home = lazy(() => import('./pages/home/main/home'));
 const Er404 = lazy(() => import('./pages/error404/error404'));
 const Privacy = lazy(() => import('./pages/privacy/privacy'));
 const MateUpPrivacy = lazy(() => import('./pages/privacy/MateupPrivacy'));
-const Contact = lazy(() => import('./pages/contact/newContact'))
-//import Contact from "./pages/contact/contact"
+const Contact = lazy(() => import('./pages/contact/newContact'));
 
-
-
-//translation
-//import { useTranslation } from 'react-i18next';
-
+// Context for basename
+const AppContext = createContext();
 
 function App() {
-
-
   const [cookies, setCookie] = useCookies(['language']);
   const [preferredLanguage, setPreferredLanguage] = useState('');
-  const used_langs = ['pl', 'en', 'de']
-
-  //wykrywanie języka przeglądarki, ustawianie go
-
-
-  const router = createBrowserRouter([
-    {
-      path: '/our-projects',
-      element: <OurProjects lang={preferredLanguage} />,
-      errorElement: <Er404 />,
-    },
-    {
-      path: '/privacy-policy',
-      element: <Privacy lang={preferredLanguage} />,
-      errorElement: <Er404 />,
-    },
-    {
-      path: '/mateup/privacy-policy',
-      element: <MateUpPrivacy />,
-      errorElement: <Er404 />,
-    },
-    {
-      path: '/itsupport',
-      element: <Services lang={preferredLanguage} page="sample" title="IT support" />,
-      errorElement: <Er404 />,
-    },
-    {
-      path: '/uiux',
-      element: <Services lang={preferredLanguage} page="uxui" title="UI UX" />,
-      errorElement: <Er404 />
-    },
-    {
-      path: '/mobile',
-      element: <Services lang={preferredLanguage} page="mobile" title="Mobile" />,
-      errorElement: <Er404 />
-    },
-    {
-      path: "/web",
-      element: <Services lang={preferredLanguage} page="web" title="Web dev" />,
-      errorElement: <Er404 />
-    },
-    {
-      path: '/',
-      element: <HomeEL lang={preferredLanguage} />,
-      errorElement: <Er404 />
-    },
-
-    {
-      path: '/home',
-      element: <HomeEL lang={preferredLanguage} />,
-      errorElement: <Er404 />
-    },
-    {
-      path: '/mateup',
-      element: <Mateup lang={preferredLanguage} />,
-      errorElement: <Er404 />
-    },
-    {
-      path: '/contact',
-      element: <Contact lang={preferredLanguage} source="page" />,
-      errorElement: <Er404 />
-    }])
-
-
-
+  const usedLangs = ['pl', 'en', 'de'];
+  const basename = ''; // Leave this empty for GitHub Pages (root)
 
   useEffect(() => {
-    let lang = cookies.language
-    if (lang == undefined) {
-      // Pobierz preferowany język użytkownika z przeglądarki
+    let lang = cookies.language;
+    if (!lang) {
       const userLanguage = navigator.language || navigator.userLanguage;
-      lang = userLanguage.split('-')[0]
-      let current_lang = (used_langs.includes(lang)) ? lang : 'en'
-      setPreferredLanguage(current_lang);
-      setCookie("language", current_lang, { maxAge: 365 * 24 * 60 * 60 })
-      console.log("undef");
+      lang = userLanguage.split('-')[0];
+      const currentLang = usedLangs.includes(lang) ? lang : 'en';
+      setPreferredLanguage(currentLang);
+      setCookie("language", currentLang, { maxAge: 365 * 24 * 60 * 60 });
+    } else {
+      setPreferredLanguage(usedLangs.includes(lang) ? lang : 'en');
     }
-    else {
-      setPreferredLanguage((used_langs.includes(lang)) ? lang : 'en')
-    }
-  }, []);
+  }, [cookies, setCookie]);
 
-  //obsługa zmiany języka przeglądarki
-  const handle_lang_change = (value) => {
-
-    setCookie("language", value, { maxAge: 365 * 24 * 60 * 60 })
-    window.location.reload()
+  const handleLangChange = (value) => {
+    setCookie("language", value, { maxAge: 365 * 24 * 60 * 60 });
+    window.location.reload();
   };
 
+  const fallback = <p>loading...</p>;
 
-
-
-
-  const fallback = <p>loading...</p>
-
-  const navElement = useRef();
-  const footerElement = useRef();
-
-  Aos.init(
-    { once: true } //aos only on first load
-  );
+  Aos.init({ once: true }); // Initialize AOS for animations
 
   const [scrollTop, setScrollTop] = useState(0);
-  Scrollanimations(scrollTop, setScrollTop)
-
+  Scrollanimations(scrollTop, setScrollTop);
 
   return (
     <Suspense fallback={fallback}>
-
-      <Container fluid className='p-0 background-image' style={{ position: "relative", overflow: "hidden" }}>
-        <div style={{ zIndex: '1' }}>
-          <Navbar lang={preferredLanguage} scrollPos={scrollTop} ref={navElement} />
-          <div style={{marginTop: "60px"}}>
-
-          <JqueryScripts />
+      <AppContext.Provider value={{ basename }}>
+        <Container fluid className="p-0 background-image" style={{ position: "relative", overflow: "hidden" }}>
+          <div style={{ zIndex: '1' }}>
+            <Navbar lang={preferredLanguage} scrollPos={scrollTop} />
+            {/* <div style={{ marginTop: "60px" }}>
+              <JqueryScripts />
+            </div> */}
+            <img className="blur-icon" src={icon} alt="blur" />
+            <HashRouter basename={basename}>
+              <Routes>
+                <Route path="/" element={<HomeEL lang={preferredLanguage} />} />
+                <Route path="/home" element={<HomeEL lang={preferredLanguage} />} />
+                <Route path="/our-projects" element={<OurProjects lang={preferredLanguage} />} />
+                <Route path="/privacy-policy" element={<Privacy lang={preferredLanguage} />} />
+                <Route path="/mateup/privacy-policy" element={<MateUpPrivacy />} />
+                <Route path="/itsupport" element={<Services lang={preferredLanguage} page="sample" title="IT support" />} />
+                <Route path="/uiux" element={<Services lang={preferredLanguage} page="uxui" title="UI UX" />} />
+                <Route path="/mobile" element={<Services lang={preferredLanguage} page="mobile" title="Mobile" />} />
+                <Route path="/web" element={<Services lang={preferredLanguage} page="web" title="Web dev" />} />
+                <Route path="/mateup" element={<Mateup lang={preferredLanguage} />} />
+                <Route path="/contact" element={<Contact lang={preferredLanguage} source="page" />} />
+                <Route path="*" element={<Er404 />} />
+              </Routes>
+            </HashRouter>
           </div>
-          <img className='blur-icon' src={icon} alt="blur" />
-          {/* <img className='blur-bgc' src={bgcimg} alt="blur" /> */}
-          <div>
-
-          </div>
-          <RouterProvider router={router} />
-        </div>
-        
-        <Footer ref={footerElement} lang={preferredLanguage} lang_change={handle_lang_change} />
-      </Container>
+          <Footer lang={preferredLanguage} lang_change={handleLangChange} />
+        </Container>
+      </AppContext.Provider>
     </Suspense>
   );
 }
 
 const HomeEL = ({ lang }) => {
-  return (<div style={{ position: "relative" }}>
-    <div className="shadow1" />
-    <div className="shadow2" />
-    <div className="shadow3" />
-    <div className="shadow4" />
-    <div className="shadow5" />
-    <div className="shadow6" />
-    <Home lang={lang} />
-  </div>
-  )
-}
+  return (
+    <div style={{ position: "relative" }}>
+      <div className="shadow1" />
+      <div className="shadow2" />
+      <div className="shadow3" />
+      <div className="shadow4" />
+      <div className="shadow5" />
+      <div className="shadow6" />
+      <Home lang={lang} />
+    </div>
+  );
+};
+
+export const useAppContext = () => {
+  const context = useContext(AppContext);
+  if (!context) {
+    throw new Error("useAppContext must be used within AppContext.Provider");
+  }
+  return context;
+};
 
 export default App;
-
-// @babel/plugin-proposal-private-property-in-object
